@@ -1,0 +1,48 @@
+
+
+@media (min-width: 768px) {
+	/* center navbar */
+	/*--------------*/
+	.my-navbar{
+	    width: 80%;
+	    margin: 0 auto;
+	}​
+
+	/* hide navbar (show only on mobile) */
+	.my-navbar{
+		display: none;
+	}
+
+	.my-hidden-md {
+		display: none !important;
+		visibility: hidden !important;
+	}
+}
+
+@media (max-width: 766px) {
+	.my-hidden-xs {
+		display: none !important;
+		visibility: hidden !important;
+	}
+}
+
+/* Neseesary padding to prevent navbar from overlapping
+/*--------------*/
+body {
+	padding-top: 40px;
+}
+
+
+/* icons */
+/*--------------*/
+.my-icon {
+	width: 30px;
+	height: 30px;
+}
+
+
+/* add padding to 2nd col to match first col in content */
+/*--------------*/
+.my-add-margin {
+    margin-top: 20px;
+}
